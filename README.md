@@ -34,8 +34,8 @@ Detect and recognize traffic sign on Malaysia's road using YoloV5 model trained 
     python detect.py --source <INPUT> --weights runs/train/exp/weights/best.pt
     ```
     
-**Notes**
-Trained model is available in models
+> **Note:**<br>
+> Trained model is available in `models`
  
 
 **Reference**

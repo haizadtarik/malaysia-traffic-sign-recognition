@@ -1,0 +1,30 @@
+# Extended Malaysian Traffic Sign Dataset (EMTD)
+# Example usage: python train.py --data EMTD.yaml --img 640 --batch 16 --epochs 3 --weights yolov5s.pt
+# parent
+# ├── yolov5
+# └── datasets
+#     └── EMTD  ← downloads here
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/EMTD  # dataset root dir
+train: images/  # train images (relative to 'path') 
+val: images/  # val images (relative to 'path') 
+
+# Classes
+nc: 66  # number of classes
+names: ['U-turn', 'Keep right', 'Keep left', 'Pass either side', 'Motorcycle track','Stop','No Left turn','No right turn',
+        'No U-turn','No entry','Weight limt 5T','Weight limit 30T','Height limit 2m','Height limit 3m','Height limit 4m',
+        'Height limit 5m','Height limit 6m','Speed limit 20','Speed limit 30','Speed limit 40','Speed limit 50',
+        'Speed limit 60','Speed limit 70','Speed limit 80','Speed limit 90','Speed limit 110','No entry heavy vehicles',
+        'No driving on right lane heavy vehicles','No parking','No stopping','Give way','Wide limit 3.5m','No overtaking',
+        'Road work', 'Camera operation zone', 'Crosswind area', 'Caution! Hump','Hump Ahead','Towing zone','Left behind',
+        'Slippery Road','Pedestrian crossing','Pedestrian crossing opt2', 'Schoolchildren crossing', 'Schoolchildren crossing opt2',
+        'Caution','Narrow roads on the left','Traffic lights ahead','Obstacles ahead','Staggered junctions','Crossroads T-junctions',
+        'Crossroads to the right','Crossroads to the left','Exit to the left','Crossroads','Minor road on right','Minor road on left',
+        'Minor road on left opt2','Cattle crossing','Roundabout ahead','Narrow bridge','Split way','Two way road','Divided road ending',
+        'Curve on the left','Crossroads Y-junction']  # class names
+
+
+# Download script/URL (optional)
+download: https://zenodo.org/record/1217105#.YWvSaRkRU5k

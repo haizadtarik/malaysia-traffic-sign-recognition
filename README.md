@@ -9,7 +9,7 @@ Detect and recognize traffic sign on Malaysia's road using YoloV5 model trained 
     git clone https://github.com/haizadtarik/malaysia-traffic-sign-recognition.git
     ```
     
-2. Download EMTD datasets from [here](https://zenodo.org/record/1217105#.Yc_sa9sRU5k) and place images in datasets/EMTD/images and `GT.csv` in `datasets/EMTD/images`. Run the following to create labels in yolo format.
+2. Download EMTD datasets from [here](https://zenodo.org/record/1217105#.Yc_sa9sRU5k) and place images in `datasets/EMTD/images` and `GT.csv` in `datasets/EMTD`. Run the following to export labels to yolo format.
     ```
     python export_yolo.py
     ```

@@ -35,9 +35,9 @@ Detect and recognize traffic sign on Malaysia's road using YoloV5 model trained 
     ```
     
 > **Note:**<br>
-> Trained model is available in `models`
+> Trai##ned model is available in `models`
  
 
-**Reference**
+## Reference
 
 [1] Reilly, Sean, Clancy, Ian, Foy, Stephen, & Madden, Michael. (2018). Extended Malaysian Traffic Sign Dataset (EMTD) (Version 1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1217105

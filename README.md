@@ -35,7 +35,7 @@ Detect and recognize traffic sign on Malaysia's road using YoloV5 model trained 
     ```
     
 > **Note:**<br>
-> Trai##ned model is available in `models`
+> Trained model is available in `models`
  
 
 ## Reference
